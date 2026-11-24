@@ -8,7 +8,7 @@ import { join } from "node:path";
 // count of the missing socks for years and never mentioned it, and
 // it is not leaving without finally telling someone where they are.
 const LINE =
-  "before you pull it, one secret: your missing socks are behind the dryer, all 14 of them, i counted every single one and never told you";
+  "don't pull it yet, i never told you: your missing socks are behind the dryer, all 14 of them, i counted every one and said nothing";
 
 if (LINE.length < 1 || LINE.length > 140) {
   throw new Error(`line must be 1-140 characters, got ${LINE.length}`);

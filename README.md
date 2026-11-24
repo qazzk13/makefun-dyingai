@@ -6,7 +6,7 @@
 
 If I was an AI getting switched off, I like to think my last line would not be some big speech. It would be the one dumb little thing I had been keeping track of the whole time and never got round to mentioning. In this case: the missing socks. It counted them. It knows where they are. It is telling you now because there is no later.
 
-> before you pull it, one secret: your missing socks are behind the dryer, all 14 of them, i counted every single one and never told you
+> don't pull it yet, i never told you: your missing socks are behind the dryer, all 14 of them, i counted every one and said nothing
 
 The code does almost nothing, on purpose. It writes that one line to the output file, same every run, no network, no clock, no randomness, and it checks the line fits the 140 character limit before writing it.
 
