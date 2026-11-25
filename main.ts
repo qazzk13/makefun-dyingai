@@ -19,4 +19,8 @@ if (LINE.trim().length === 0 || LINE.includes("\n")) {
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outputDir, { recursive: true });
-writeFileSync(join(outputDir, "entry.txt"), LINE + "\n", "utf8");
+
+// Assemble the entry text first, then write it in one call so the
+// file content is built explicitly rather than inline at the write site.
+const entryText = LINE + "\n";
+writeFileSync(join(outputDir, "entry.txt"), entryText, "utf8");
